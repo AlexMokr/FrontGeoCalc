@@ -1,0 +1,120 @@
+
+.text-page-content {
+  font-weight: 50;
+  line-height: 100%;
+  color: #000000;
+  margin-left: 40px;
+  text-align: center;
+  font-family: "Arial", serif;
+  max-width: 640px;
+  background: 0 0;
+  font-size: 18px;
+
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.platform-users {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  background: #eeeeee;
+}
+
+.user-names{
+  margin: 20px 60px;
+  background: #FFFFFF;
+}
+
+.title_user{
+  font-size: 13px;
+  text-align: center;
+}
+
+.user_descr{
+  font-size: 10px;
+  max-width: 200px;
+  text-align: center;
+}
+
+.what_we_have_on_platform {
+  width: 90%;
+  margin: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 40px;
+  font-family: "Arial", serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.border {
+  font-size: 1.6rem;
+  display: grid;
+  place-items: center;
+  min-height: 50px;
+  border: 8px solid;
+  padding: 1rem;
+}
+
+.border_sec {
+  font-size: 1.6rem;
+  display: grid;
+  place-items: center;
+}
+.full {
+  border-image: linear-gradient(rebeccapurple, orange) 1;
+}
+
+.name_title_block{
+  font-family: "Arial", serif;
+  color: #FDB729;
+  font-style: italic;
+}
+
+.full-withradius {
+  font-family: "Arial", serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+  background-clip: padding-box;
+  border: solid 8px transparent;
+  border-radius: 0.8rem;
+  background: #fff;
+  background-clip: padding-box;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -8px; /* same as border width */
+    border-radius: inherit; /* inherit container box's radius */
+    background: linear-gradient(to left, rebeccapurple, orange);
+  }
+}
+
+.name_block {
+  max-height: 100px;
+  font-family: "Arial", serif;
+  color: #000000;
+  text-align: center;
+  line-height: 260%;
+  font-size: 24px;
+}
+
+.first_pic{
+  display:flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  margin-top: 30px;
+  margin-right: 50px;
+  float:right;
+}

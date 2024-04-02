@@ -1,0 +1,27 @@
+.community-page-wrapper{
+  font-family: 'Arial',sans-serif;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.community-page-wrapper .community-grid{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 320px;
+  height: 380px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #000000;
+}
+
+.community-page-wrapper .community-grid .content{
+  text-align: center;
+  padding: 30px;
+  margin-top: 15px;
+  margin-left: -25px;
+}
